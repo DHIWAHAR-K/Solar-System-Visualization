@@ -12,7 +12,7 @@ screen = pygame.display.set_mode(size)
 
 
 # Set the title of the window
-pygame.display.set_caption("DataFlair - Solar System Visualizer")
+pygame.display.set_caption("Solar System Visualizer")
 
 # Load the images for each planet
 sun_image = pygame.image.load(os.path.join("planets", "sun.png"))
